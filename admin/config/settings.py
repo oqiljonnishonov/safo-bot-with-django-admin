@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-$f32zqb+6x1!g7cxgu^dzx+ym@6j#ju@6dneg)#5nb7@n7xvl)"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -78,11 +78,11 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'safo_bot',
-        'USER': 'oqiljonnishonov',
-        'PASSWORD': '#Mypostgres001',
-        'HOST': 'azure-postgresql-instance.postgres.database.azure.com',
-        'PORT': '5432'
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'PpPCWcbWxAEqF0W8WYb2',
+        'HOST': 'containers-us-west-31.railway.app',
+        'PORT': '7865'
     }
 }
 
