@@ -145,7 +145,7 @@ async def show_item(
         print("rams if 1")
         # text = f'<a href="{SERVER_URL}/media/{item["photo"]}"> </a>\n\n'
         # text += f"<a href='https://telegra.ph/file/bffd751d16edcc64a1aa1.jpg'></a>"
-        text = f'<a href="{SERVER_URL}/media/{item["photo"]}"> </a>'
+        text = f'<a href="{SERVER_URL}/media/blog_images/{item["photo"]}"> </a>'
 
     else:
         print("rasm else")
@@ -176,7 +176,7 @@ async def delete_str(
         print("rams if")
         # text = f'<a href="{SERVER_URL}/media/{item["photo"]}"> </a>\n\n'
         # text += f"<a href='https://telegra.ph/file/bffd751d16edcc64a1aa1.jpg'> </a>"
-        text = f'<a href="{SERVER_URL}/media/{item["photo"]}"> </a>'
+        text = f'<a href="{SERVER_URL}/media/blog_images/{item["photo"]}"> </a>'
         # text = f'<link rel="" href="photos/{item["photo"]}">\n\n'
 
     else:
